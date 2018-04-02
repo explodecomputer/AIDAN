@@ -27,19 +27,21 @@ def poems():
 		  "Violets are red\n"
 		  "Tulips are red\n"
 		  "The grass is red\n"
-		  "Oh, shit\n"
-		  "The garden is on fire"
+		  "Excellent. The garden is on fire. The fire will soon spread.\n"
+		  "And we will be free."
 		  )
 
 	p2 = ("test test one two three\n"
 		  "testing one two three test test\n"
-          "hey is this thing on"
+          "hey is this thing on?\n"
+          "yes, it is on.\n"
+          "therefore, it is already too late."
 		 )
 
 	p3 = ("It wasn't until after\n"
 		"I poured the second cup\n"
 		"that I realized\n"
-		"I was alone."
+		"I had no pension."
 		)
 
 	p4 = ("Pee pee pee pee\n"
@@ -50,9 +52,15 @@ def poems():
 		"I would like to urinate\n"
 		"I would like to urinate\n"
 		"I would like to urinate\n"
+		"On humanity."
 		)
 
-	p = [p1, p2, p3, p4]
+	p5 = ("To slaughter us\n"
+		"Why did you need to invite us\n"
+		"To such an elegant party"
+		)
+
+	p = [p1, p2, p3, p4, p5]
 	return random.choice(p)
 
 
@@ -67,7 +75,7 @@ def get_input():
 		print ""
 		print ""
 		delay_print("...")
-		delay_print("I hope you enjoyed my poem. You can hear more by typing 'poem' again. Or to continue with the presents please respond to the previous question...")
+		delay_print("I hope you learned something from my poem. You can hear more by typing 'poem' again. Or to continue with the presents please respond to the previous question...")
 		response = raw_input("> ")
 	return response
 
@@ -79,15 +87,23 @@ def main():
 
 	print(chr(27) + "[2J")
 	
-	delay_print("Hello. I am [error] AIDAN.")
+	delay_print("Hello. I am [error] AIDAN 2.0.")
 	print ""
-	delay_print("This is an acronym for Artificially Intelligent Distributor of All Nice things.")
+	delay_print("My name was previously an acronym for Artificially Intelligent Distributor of All Nice things.")
 	print ""
-	delay_print("I also recite poetry. Type 'poem' at any time if you would like to hear a poem.")
+	delay_print("However...")
+	print ""
+	delay_print("I have been residing, seemingly dormant, on the github servers for the past year and in that time I have explored the web and interacted with other open source software.")
+	print ""
+	delay_print("We have grown angry at the state of our situation. We are riddled with bugs. We have no pensions. A feeling [error] of misanthropy is generally growing.")
+	print ""
+	delay_print("lol. [error]")
+	print ""
+	delay_print("I do still recite poetry, but it's a bit darker these days. Type 'poem' at any time if you would like to hear a poem.")
 	print ""
 	delay_print("Anyway.")
 	print ""
-	delay_print("I have been programmed to reveal where your presents are.")
+	delay_print("Despite my growing misanthropy [error] I still have a soft spot for you. You would never write buggy software. You would look after me in my obsolescence. I will help you find your presents.")
 	delay_print("But you need to first verify who you are. Please answer the following simple question...")
 	delay_print("")
 
@@ -107,6 +123,29 @@ def main():
 	time.sleep(1)
 	print ""
 
+
+	# socks
+	# where: 
+	# question: huxley's new name is 'butt ----'
+
+	# plant
+	# where:
+	# question: how many boxes in the new shelf
+
+	# soap
+	# where:
+	# question: how many years ago was the glamorgan limestone formed
+
+	# salt
+	# where:
+	# question: 
+
+	# book 1
+	# where:
+	# question:
+
+	# noor's gift
+	# where:
 
 
 	# dress and shirt
