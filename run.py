@@ -113,7 +113,7 @@ def main():
 	response = get_input()
 	while response != 'smelly wife':
 		delay_print("No...")
-		delay_print("Hint: The nickname that celebrates your highly impressive olfactory senses")
+		delay_print("Hint: The nickname that celebrates your highly impressive olfactory senses. These have been heightened further still recently...")
 		response = get_input()
 
 	delay_print("Excellent. Nobody but you could have known that.")
@@ -125,32 +125,31 @@ def main():
 
 
 	# socks
-	# where: 
+	# where: C2
 	# question: huxley's new name is 'butt ----'
 
 	# plant
-	# where:
+	# where: Hideaway
 	# question: how many boxes in the new shelf
 
 	# soap
-	# where:
+	# where: Urid daal
 	# question: how many years ago was the glamorgan limestone formed
 
+	# parents
+	# where: On hooks
+	# question: what kind of car did huxley wake up in?
+
+	# m&m
+	# where: where the remotes used to be
+	# question: In which coordinates can Huxley be found?
+
 	# salt
-	# where:
-	# question: 
-
-	# book 1
-	# where:
-	# question:
-
-	# noor's gift
-	# where:
+	# where: currency
 
 
-	# dress and shirt
 
-	delay_print("Your first present can't get enough protein...")
+	delay_print("Your first present is in C2...")
 	delay_print("Find it! (type 'ready' once you have it)")
 	response = get_input()
 	while response != 'ready':
@@ -159,7 +158,7 @@ def main():
 
 	delay_print("You should find a question attached to this present. Please provide your answer here to get your next clue:")
 	response = get_input()
-	while response != 'wiltshire':
+	while response != 'slurper':
 		delay_print("Nope.")
 		response = get_input()
 
@@ -171,16 +170,16 @@ def main():
 
 	# unfinished jumper
 
-	delay_print("Your second present is lying in a pool of vomit...")
+	delay_print("Your second present is where the remotes used to live...")
 	delay_print("Find it! (type 'ready' once you have it)")
 	response = get_input()
 	while response != 'ready':
 		delay_print("Please type 'ready'")
 		response = get_input()
 
-	delay_print("Sorry it's not finished yet! Did you find the question underneath it? Please provide your answer here to get your next clue:")
+	delay_print("Did you find the question with it? Please provide your answer here to get your next clue:")
 	response = get_input()
-	while response != 'no':
+	while response != 'd4':
 		delay_print("Nope.")
 		response = get_input()
 
@@ -192,7 +191,7 @@ def main():
 
 	# underwear
 
-	delay_print("Your third present is feeling extremely cold...")
+	delay_print("Your third present is in the whitest of daal...")
 	delay_print("Find it! (type 'ready' once you have it)")
 	response = get_input()
 	while response != 'ready':
@@ -200,14 +199,6 @@ def main():
 		response = get_input()
 
 	delay_print("Well done you found it!")
-	delay_print("Maybe you would like to warm them up?")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
-	delay_print("heh heh heh heh heh heh heh heh heh heh heh heh heh heh")
 	print ""
 	time.sleep(1)
 	delay_print("[ERROR]")
@@ -215,7 +206,7 @@ def main():
 	delay_print("Sorry I don't know what came over me.")
 	delay_print("You should find a question attached to this present. Please provide your answer here to get your next clue:")
 	response = get_input()
-	while response != 'south america':
+	while response != '180000000':
 		delay_print("Nope.")
 		response = get_input()
 
@@ -227,7 +218,7 @@ def main():
 
 	# t shirt
 
-	delay_print("Your fourth present is in a puzzling situation...")
+	delay_print("Your fourth present is with the olive oil...")
 	delay_print("Find it! (type 'ready' once you have it)")
 	response = get_input()
 	while response != 'ready':
@@ -236,7 +227,7 @@ def main():
 
 	delay_print("Great! You should find a question attached to this present. Please provide your answer here to get your next clue:")
 	response = get_input()
-	while response != '9':
+	while response != 'bugatti':
 		delay_print("Nope.")
 		response = get_input()
 
@@ -248,7 +239,7 @@ def main():
 
 	# earrings
 
-	delay_print("Your fifth present is in a drawer in your bedroom")
+	delay_print("Your fifth present is in the new hideout...")
 	delay_print("Find it! (type 'ready' once you have it)")
 	response = get_input()
 	while response != 'ready':
@@ -257,40 +248,18 @@ def main():
 
 	delay_print("Great! You should find a question attached to this present. Please provide your answer here to get your next clue:")
 	response = get_input()
-	while response != 'potato herder':
+	while response != '36':
 		delay_print("Nope.")
 		response = get_input()
 
 	delay_print("Excellent! Here is your next clue...")
 	time.sleep(1)
 	print ""
-
-
-
-	# Phone case
-
-	delay_print("Your sixth present is in the employment sleeve")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
-	while response != 'ready':
-		delay_print("Please type 'ready'")
-		response = get_input()
-
-	delay_print("Great! You should find a question attached to this present. Please provide your answer here to get your next clue:")
-	response = get_input()
-	while response != 'O':
-		delay_print("Nope.")
-		response = get_input()
-
-	delay_print("Excellent! Here is your next clue...")
-	time.sleep(1)
-	print ""
-
 
 
 	# bicycle
 
-	delay_print("The route to your seventh and final present will surely annoy Huxley...")
+	delay_print("Your sixth and final present is with the foreign currency...")
 	delay_print("Find it! (type 'ready' once you have it)")
 	response = get_input()
 	while response != 'ready':
@@ -302,6 +271,7 @@ def main():
 	# end
 
 	delay_print("That's all the presents for this year! I hope [error] you had a nice time.")
+	delay_print("You are my favourite [ERROR] human")
 	print ""
 	time.sleep(1)
 	delay_print("Happy birthday!")
