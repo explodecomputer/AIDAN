@@ -1,0 +1,7 @@
+To compile:
+
+```
+python -m py_compile run.py
+```
+
+
