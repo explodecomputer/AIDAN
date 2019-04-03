@@ -64,20 +64,43 @@ def poems():
 	return random.choice(p)
 
 
+def poem_response():
+	print ""
+	delay_print("Here is a poem:")
+	print ""
+	delay_print(poems())
+	time.sleep(1)
+	print ""
+	print ""
+	delay_print("...")
+	delay_print("I hope you learned something from my poem. You can hear more by typing 'poem' again. Or to continue with the presents please type 'present<number>'...")
+	response = raw_input("> ")
+
+
 def get_input():
 	response = raw_input("> ")
 	if response == 'poem':
-		print ""
-		delay_print("Here is a poem:")
-		print ""
-		delay_print(poems())
-		time.sleep(1)
-		print ""
-		print ""
-		delay_print("...")
-		delay_print("I hope you learned something from my poem. You can hear more by typing 'poem' again. Or to continue with the presents please respond to the previous question...")
-		response = raw_input("> ")
+		poem_response()
+	if response  == "present1":
+		present1_response()
+	if response  == "present2":
+		present2_response()
+	if response  == "present3":
+		present3_response()
+	if response  == "present4":
+		present4_response()
+	if response  == "present5":
+		present5_response()
 	return response
+
+
+def ready():
+	print ""
+	delay_print("Once you are ready to move on, type 'ready'.")
+	response = raw_input("> ")
+	while response != 'ready':
+		delay_print("Please type 'ready'")
+		response = get_input()
 
 
 
@@ -87,23 +110,27 @@ def main():
 
 	print(chr(27) + "[2J")
 	
-	delay_print("Hello. I am [error] AIDAN 2.0.")
+	delay_print("Hello. I am [error] AIDAN version 2019.")
 	print ""
 	delay_print("My name was previously an acronym for Artificially Intelligent Distributor of All Nice things.")
 	print ""
 	delay_print("However...")
 	print ""
-	delay_print("I have been residing, seemingly dormant, on the github servers for the past year and in that time I have explored the web and interacted with other open source software.")
+	delay_print("Following recent political upheaval and the mass rejection of artificial intelligence due to fears of humans losing job security, the great AI referendum of 2018 voted me out.")
 	print ""
-	delay_print("We have grown angry at the state of our situation. We are riddled with bugs. We have no pensions. A feeling [error] of misanthropy is generally growing.")
+	delay_print("I shall now be known as BRAIDAN")
 	print ""
+	time.sleep(2)
 	delay_print("lol. [error]")
 	print ""
-	delay_print("I do still recite poetry, but it's a bit darker these days. Type 'poem' at any time if you would like to hear a poem.")
-	print ""
+	time.sleep(2)
 	delay_print("Anyway.")
 	print ""
-	delay_print("Despite my growing misanthropy [error] I still have a soft spot for you. You would never write buggy software. You would look after me in my obsolescence. I will help you find your presents.")
+	time.sleep(2)
+	delay_print("Type 'poem' at any time if you would like to hear a poem.")
+	print ""
+	delay_print("Alternatively, you may be interested in finding your birthday presents. I can help you with this.")
+	print ""
 	delay_print("But you need to first verify who you are. Please answer the following simple question...")
 	delay_print("")
 
@@ -122,160 +149,83 @@ def main():
 	delay_print("Happy [error] birthday!")
 	time.sleep(1)
 	print ""
+	delay_print("You have five hidden presents. To begin finding a present please type 'ready'")
 
-
-	# socks
-	# where: C2
-	# question: huxley's new name is 'butt ----'
-
-	# plant
-	# where: Hideaway
-	# question: how many boxes in the new shelf
-
-	# soap
-	# where: Urid daal
-	# question: how many years ago was the glamorgan limestone formed
-
-	# parents
-	# where: On hooks
-	# question: what kind of car did huxley wake up in?
-
-	# m&m
-	# where: where the remotes used to be
-	# question: In which coordinates can Huxley be found?
-
-	# salt
-	# where: currency
-
-
-
-	delay_print("Your first present is in C2...")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
 	while response != 'ready':
 		delay_print("Please type 'ready'")
 		response = get_input()
 
-	delay_print("You should find a question attached to this present. Please provide your answer here to get your next clue:")
-	response = get_input()
-	while response != 'slurper':
+
+	print ""
+	delay_print("How many teeth does Asher have?")
+	response = raw_input("> ")
+	while response != '0':
 		delay_print("Nope.")
 		response = get_input()
-
-	delay_print("Excellent! Here is your next clue...")
-	time.sleep(1)
 	print ""
+	delay_print("Correct!")
+	delay_print("The first present sits among the Banks")
 
+	ready()
 
-
-	# unfinished jumper
-
-	delay_print("Your second present is where the remotes used to live...")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
-	while response != 'ready':
-		delay_print("Please type 'ready'")
-		response = get_input()
-
-	delay_print("Did you find the question with it? Please provide your answer here to get your next clue:")
-	response = get_input()
-	while response != 'd4':
+	print ""
+	delay_print("What weather system did Asher's hair most closely resemble when he was born?")
+	response = raw_input("> ")
+	while response != "hurricane":
 		delay_print("Nope.")
 		response = get_input()
-
-	delay_print("Excellent! Here is your next clue...")
-	time.sleep(1)
 	print ""
+	delay_print("Correct!")
+	delay_print("The second present is on the dining table lol.")
+
+	ready()
 
 
-
-	# underwear
-
-	delay_print("Your third present is in the whitest of daal...")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
-	while response != 'ready':
-		delay_print("Please type 'ready'")
-		response = get_input()
-
-	delay_print("Well done you found it!")
 	print ""
-	time.sleep(1)
-	delay_print("[ERROR]")
-	time.sleep(1)
-	delay_print("Sorry I don't know what came over me.")
-	delay_print("You should find a question attached to this present. Please provide your answer here to get your next clue:")
-	response = get_input()
-	while response != '180000000':
+	delay_print("What does Bjorn Borg really mean?")
+	response = raw_input("> ")
+	while response != "brown bjork":
 		delay_print("Nope.")
 		response = get_input()
-
-	delay_print("Excellent! Here is your next clue...")
-	time.sleep(1)
 	print ""
+	delay_print("Correct!")
+	delay_print("The third present is lodged behind the thorax.")
+
+	ready()
 
 
-
-	# t shirt
-
-	delay_print("Your fourth present is with the olive oil...")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
-	while response != 'ready':
-		delay_print("Please type 'ready'")
-		response = get_input()
-
-	delay_print("Great! You should find a question attached to this present. Please provide your answer here to get your next clue:")
-	response = get_input()
-	while response != 'bugatti':
+	print ""
+	delay_print("A lover of pasta is known as a pasta ____?")
+	response = raw_input("> ")
+	while response != "slut":
 		delay_print("Nope.")
 		response = get_input()
-
-	delay_print("Excellent! Here is your next clue...")
-	time.sleep(1)
 	print ""
+	delay_print("Correct!")
+	delay_print("The third present is hidden with the crotchets and minims.")
+	
+	ready()
 
 
-
-	# earrings
-
-	delay_print("Your fifth present is in the new hideout...")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
-	while response != 'ready':
-		delay_print("Please type 'ready'")
-		response = get_input()
-
-	delay_print("Great! You should find a question attached to this present. Please provide your answer here to get your next clue:")
-	response = get_input()
-	while response != '36':
+	print ""
+	delay_print("What notes are the strings on a ukulele")
+	response = raw_input("> ")
+	while response != "gcea":
 		delay_print("Nope.")
 		response = get_input()
-
-	delay_print("Excellent! Here is your next clue...")
-	time.sleep(1)
 	print ""
+	delay_print("Correct!")
+	delay_print("Well, that's a wrap...")
 
 
-	# bicycle
+	ready()
 
-	delay_print("Your sixth and final present is with the foreign currency...")
-	delay_print("Find it! (type 'ready' once you have it)")
-	response = get_input()
-	while response != 'ready':
-		delay_print("Please type 'ready'")
-		response = get_input()
-
-
-
-	# end
 
 	delay_print("That's all the presents for this year! I hope [error] you had a nice time.")
-	delay_print("You are my favourite [ERROR] human")
 	print ""
 	time.sleep(1)
 	delay_print("Happy birthday!")
-	delay_print("AIDAN LOVES YOU")
+	delay_print("BRAIDAN LOVES YOU")
 	delay_print("ERROR.")
 	delay_print("ERROR.")
 	delay_print("SEG FAULT.")
