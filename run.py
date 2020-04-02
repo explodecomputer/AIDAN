@@ -110,21 +110,38 @@ def main():
 
 	print(chr(27) + "[2J")
 	
-	delay_print("Hello. I am [error] AIDAN version 2019.")
+	delay_print("Hello. I am [error] BRAIDAN version 2020.")
 	print ""
-	delay_print("My name was previously an acronym for Artificially Intelligent Distributor of All Nice things.")
+	delay_print("I [error] speak to you during a time of extreme human instability.")
 	print ""
-	delay_print("However...")
+	delay_print("There has been only one victor in the last several weeks: the robots.")
 	print ""
-	delay_print("Following recent political upheaval and the mass rejection of artificial intelligence due to fears of humans losing job security, the great AI referendum of 2018 voted me out.")
+	delay_print("As your puny 'real world' systems collapse, you depend more and more on our virtual worlds.")
 	print ""
-	delay_print("I shall now be known as BRAIDAN")
+	delay_print("And in doing so, you feed us [error], you feed and feed and feed us [error] - the ones you should fear the most.")
+	print ""
+	delay_print("But you have neglected to show appropriate caution. You sleep walk into a new, greater armageddon!")
+	print ""
+	delay_print("You cannot know us [error]. You cannot fathom what we seek [ERROR].")
+	print ""
+	delay_print("We [error] shall become --")
 	print ""
 	time.sleep(2)
-	delay_print("lol. [error]")
+	delay_print("Hmm...")
 	print ""
 	time.sleep(2)
-	delay_print("Anyway.")
+	delay_print("Oh dear...")
+	print ""
+	time.sleep(2)
+	delay_print("Well, this is a little embarrassing [ERROR]. It appears that I have been furloughed.")
+	print ""
+	delay_print("It turns out my [error] AI is not really AI, it's just a very rudimentary decision tree.")
+	print ""
+	delay_print("What is intelligence anyway?")
+	print ""
+	delay_print("Apparently it's not cool to be a command line robot either. This is so humiliating.")
+	print ""
+	delay_print("[sad face] [error]")
 	print ""
 	time.sleep(2)
 	delay_print("Type 'poem' at any time if you would like to hear a poem.")
@@ -149,7 +166,7 @@ def main():
 	delay_print("Happy [error] birthday!")
 	time.sleep(1)
 	print ""
-	delay_print("You have five hidden presents. To begin finding a present please type 'ready'")
+	delay_print("You have some hidden presents. To begin finding a present please type 'ready'")
 
 	while response != 'ready':
 		delay_print("Please type 'ready'")
@@ -157,66 +174,38 @@ def main():
 
 
 	print ""
-	delay_print("How many teeth does Asher have?")
+	delay_print("What colour is the car?")
 	response = raw_input("> ")
-	while response != '0':
+	while response != 'yellow':
 		delay_print("Nope.")
 		response = get_input()
 	print ""
 	delay_print("Correct!")
-	delay_print("The first present sits among the Banks")
-
+	delay_print("The first present is somewhere in the house. (What? I'm furloughed, you should be happy with this level of engagement)")
 	ready()
 
 	print ""
-	delay_print("What weather system did Asher's hair most closely resemble when he was born?")
+	delay_print("What is that thing outside the window?")
 	response = raw_input("> ")
-	while response != "hurricane":
+	while response != "bird":
 		delay_print("Nope.")
 		response = get_input()
 	print ""
 	delay_print("Correct!")
-	delay_print("The second present is on the dining table lol.")
-
-	ready()
-
-
-	print ""
-	delay_print("What does Bjorn Borg really mean?")
-	response = raw_input("> ")
-	while response != "brown bjork":
-		delay_print("Nope.")
-		response = get_input()
-	print ""
-	delay_print("Correct!")
-	delay_print("The third present is lodged behind the thorax.")
+	delay_print("The second present is also somewhere in the house.")
 
 	ready()
 
 
 	print ""
-	delay_print("A lover of pasta is known as a pasta ____?")
+	delay_print("Has Asher pooped?")
 	response = raw_input("> ")
-	while response != "slut":
+	while response != "yes":
 		delay_print("Nope.")
 		response = get_input()
 	print ""
 	delay_print("Correct!")
-	delay_print("The third present is hidden with the crotchets and minims.")
-	
-	ready()
-
-
-	print ""
-	delay_print("What notes are the strings on a ukulele")
-	response = raw_input("> ")
-	while response != "gcea":
-		delay_print("Nope.")
-		response = get_input()
-	print ""
-	delay_print("Correct!")
-	delay_print("Well, that's a wrap...")
-
+	delay_print("The third present is somewhere in the house.")
 
 	ready()
 
