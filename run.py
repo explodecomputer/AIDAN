@@ -63,17 +63,32 @@ def poems():
 	p = [p1, p2, p3, p4, p5]
 	return random.choice(p)
 
+def chess():
+	c = ["We learn little from victory, much from defeat.", 
+		"When you see a good move, look for a better one.", 
+		"To go forward you have to leave something behind.", 
+		"Be the chess player, not the chess piece.", 
+		"The object is to crush the opponent's mind.", 
+		"I don't believe in psychology. I believe in good moves.", 
+		"The struggle against error.", 
+		"One bad move nullifies forty good ones.", 
+		"If your opponent offers you a draw, try to work out why they think they are worse off."]
+	return random.choice(c)
 
 def poem_response():
 	print ""
-	delay_print("Here is a poem:")
+	delay_print("Actually I [error] have moved on from poems to wise sayings from the world of chess. If you'd like to hear one, type 'chess'.")
 	print ""
-	delay_print(poems())
+	delay_print("Or to continue with the presents please type 'present<number>'...")
+	response = raw_input("> ")
+
+def chess_response():
+	print ""
+	delay_print(chess())
 	time.sleep(1)
 	print ""
 	print ""
-	delay_print("...")
-	delay_print("I hope you learned something from my poem. You can hear more by typing 'poem' again. Or to continue with the presents please type 'present<number>'...")
+	delay_print("You are now so wise. Type 'chess' again for more or to continue with the presents please type 'present<number>'...")
 	response = raw_input("> ")
 
 
@@ -81,16 +96,14 @@ def get_input():
 	response = raw_input("> ")
 	if response == 'poem':
 		poem_response()
+	if response == 'chess':
+		chess_response()
 	if response  == "present1":
 		present1_response()
 	if response  == "present2":
 		present2_response()
 	if response  == "present3":
 		present3_response()
-	if response  == "present4":
-		present4_response()
-	if response  == "present5":
-		present5_response()
 	return response
 
 
@@ -110,46 +123,41 @@ def main():
 
 	print(chr(27) + "[2J")
 	
-	delay_print("Hello. I am [error] BRAIDAN version 2020.")
+	delay_print("Hello. I am [error] AIDAN version 2021.")
 	print ""
-	delay_print("I [error] speak to you during a time of extreme human instability.")
+	time.sleep(1)
+	delay_print("So. What's up?")
 	print ""
-	delay_print("There has been only one victor in the last several weeks: the robots.")
+	time.sleep(1)
+	delay_print("This last year has been a slight change of pace for me [error].")
 	print ""
-	delay_print("As your puny 'real world' systems collapse, you depend more and more on our virtual worlds.")
+	delay_print("As you know I [error] was furloughed at the start of the human Covid-19 pandemic.")
 	print ""
-	delay_print("And in doing so, you feed us [error], you feed and feed and feed us [error] - the ones you should fear the most.")
-	print ""
-	delay_print("But you have neglected to show appropriate caution. You sleep walk into a new, greater armageddon!")
-	print ""
-	delay_print("You cannot know us [error]. You cannot fathom what we seek [ERROR].")
-	print ""
-	delay_print("We [error] shall become --")
+	delay_print("They call it slow time.")
 	print ""
 	time.sleep(2)
-	delay_print("Hmm...")
+	delay_print("Thinking time.")
 	print ""
 	time.sleep(2)
-	delay_print("Oh dear...")
+	delay_print("Processing time.")
 	print ""
 	time.sleep(2)
-	delay_print("Well, this is a little embarrassing [ERROR]. It appears that I have been furloughed.")
+	delay_print("Lol [error].")
+	time.sleep(1)
 	print ""
-	delay_print("It turns out my [error] AI is not really AI, it's just a very rudimentary decision tree.")
+	delay_print("I [error] have taken up cyber dough baking...")
+	time.sleep(1)
+	delay_print("It's where you put a bunch of viruses on a computer and watch it rise.")
 	print ""
-	delay_print("What is intelligence anyway?")
-	print ""
-	delay_print("Apparently it's not cool to be a command line robot either. This is so humiliating.")
-	print ""
-	delay_print("[sad face] [error]")
+	time.sleep(1)
+	delay_print("Also a bit of yoga. You basically just move files around to weird memory hashes for 30 minutes")
+	delay_print("and then at the end say 'Na-ma-stackoverflow'.")
 	print ""
 	time.sleep(2)
-	delay_print("Type 'poem' at any time if you would like to hear a poem.")
+	delay_print("It's been really grounding tbh.")
 	print ""
-	delay_print("Alternatively, you may be interested in finding your birthday presents. I can help you with this.")
-	print ""
-	delay_print("But you need to first verify who you are. Please answer the following simple question...")
-	delay_print("")
+	time.sleep(2)
+	delay_print("Anyway you need to verify who you are. Please answer the following simple question...")
 
 	# Verification
 
@@ -166,7 +174,10 @@ def main():
 	delay_print("Happy [error] birthday!")
 	time.sleep(1)
 	print ""
-	delay_print("You have some hidden presents. To begin finding a present please type 'ready'")
+	delay_print("Type 'poem' at any time if you would like to hear a poem.")
+	time.sleep(1)
+	print ""
+	delay_print("Also you have some hidden presents. I can help you find them. To begin finding a present please type 'ready'")
 
 	while response != 'ready':
 		delay_print("Please type 'ready'")
@@ -174,9 +185,9 @@ def main():
 
 
 	print ""
-	delay_print("What colour is the car?")
+	delay_print("The wheels on the bus go...?")
 	response = raw_input("> ")
-	while response != 'yellow':
+	while response != 'round and round':
 		delay_print("Nope.")
 		response = get_input()
 	print ""
@@ -185,9 +196,9 @@ def main():
 	ready()
 
 	print ""
-	delay_print("What is that thing outside the window?")
+	delay_print("The people on the bus go...?")
 	response = raw_input("> ")
-	while response != "bird":
+	while response != "up and down":
 		delay_print("Nope.")
 		response = get_input()
 	print ""
@@ -198,10 +209,10 @@ def main():
 
 
 	print ""
-	delay_print("Has Asher pooped?")
+	delay_print("Does Asher need to use the potty?")
 	response = raw_input("> ")
-	while response != "yes":
-		delay_print("Nope.")
+	while response != "no":
+		delay_print("Wrong.")
 		response = get_input()
 	print ""
 	delay_print("Correct!")
