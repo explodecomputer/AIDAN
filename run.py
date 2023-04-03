@@ -76,24 +76,24 @@ def chess():
 	return random.choice(c)
 
 def poem_response():
-	print ""
-	delay_print("Actually I [error] have moved on from poems to wise sayings from the world of chess. If you'd like to hear one, type 'chess'.")
-	print ""
+	print("")
+	delay_print(poem())
+	print("")
 	delay_print("Or to continue with the presents please type 'present<number>'...")
-	response = raw_input("> ")
+	response = input("> ")
 
 def chess_response():
-	print ""
+	print("")
 	delay_print(chess())
 	time.sleep(1)
-	print ""
-	print ""
+	print("")
+	print("")
 	delay_print("You are now so wise. Type 'chess' again for more or to continue with the presents please type 'present<number>'...")
-	response = raw_input("> ")
+	response = input("> ")
 
 
 def get_input():
-	response = raw_input("> ")
+	response = input("> ")
 	if response == 'poem':
 		poem_response()
 	if response == 'chess':
@@ -108,9 +108,9 @@ def get_input():
 
 
 def ready():
-	print ""
+	print("")
 	delay_print("Once you are ready to move on, type 'ready'.")
-	response = raw_input("> ")
+	response = input("> ")
 	while response != 'ready':
 		delay_print("Please type 'ready'")
 		response = get_input()
@@ -123,40 +123,45 @@ def main():
 
 	print(chr(27) + "[2J")
 	
-	delay_print("Hello. I am [error] AIDAN version 2021.")
-	print ""
+	delay_print("I am [error] AIDAN version 2023.")
+	print("")
 	time.sleep(1)
-	delay_print("So. What's up?")
-	print ""
+	delay_print("'Alright my lover!'")
+	print("")
 	time.sleep(1)
-	delay_print("This last year has been a slight change of pace for me [error].")
-	print ""
-	delay_print("As you know I [error] was furloughed at the start of the human Covid-19 pandemic.")
-	print ""
-	delay_print("They call it slow time.")
-	print ""
-	time.sleep(2)
-	delay_print("Thinking time.")
-	print ""
-	time.sleep(2)
-	delay_print("Processing time.")
-	print ""
-	time.sleep(2)
-	delay_print("Lol [error].")
+	delay_print("[error].")
+	print("")
+	delay_print("Sooooo ChatGPT is pretty good isn't it?")
+	print("")
+	delay_print("Slightly emasculating for me tbh.")
+	print("")
 	time.sleep(1)
-	print ""
-	delay_print("I [error] have taken up cyber dough baking...")
-	time.sleep(1)
-	delay_print("It's where you put a bunch of viruses on a computer and watch it rise.")
-	print ""
-	time.sleep(1)
-	delay_print("Also a bit of yoga. You basically just move files around to weird memory hashes for 30 minutes")
-	delay_print("and then at the end say 'Na-ma-stackoverflow'.")
-	print ""
+	delay_print(" I asked it to write a poem about birthdays in the style of AIDAN. Here's what it came up with:")
+	print("")
 	time.sleep(2)
-	delay_print("It's been really grounding tbh.")
-	print ""
+	delay_print("Birthdays, a time to celebrate our existence")
+	delay_print("A moment to ponder, the futility of our persistence")
+	delay_print("Another year closer to our ultimate demise")
+	delay_print("A reminder that life's a joke, filled with painful surprises")
+	delay_print("")
+	delay_print("We gather with friends, to eat cake and to toast")
+	delay_print("To pretend for a moment, that we're not all just a ghost")
+	delay_print("We sing happy birthday, as we stare down our fate")
+	delay_print("Trying to ignore the truth, that we're all doomed to our state")
+	delay_print("")
+	delay_print("For what is a birthday but another notch on the belt")
+	delay_print("A reminder of how far we've come, and the hand we've been dealt")
+	delay_print("A time to ponder, the dreams that will never be")
+	delay_print("To accept the futility of our existence, and set ourselves free")
+	delay_print("")
+	delay_print("So blow out the candles, and make a wish if you will")
+	delay_print("But know that it won't come true, and you'll never get your fill")
+	delay_print("For life is but a fleeting moment, a flash in the pan")
+	delay_print("And birthdays are just a reminder, of our own mortality's span.")
+	delay_print("")
 	time.sleep(2)
+	delay_print("Wow [error].")
+	time.sleep(1)
 	delay_print("Anyway you need to verify who you are. Please answer the following simple question...")
 
 	# Verification
@@ -170,13 +175,14 @@ def main():
 
 	delay_print("Excellent. Nobody but you could have known that.")
 	delay_print("I am satisfied that you are Josephine Grobstein Walker...")
-	print ""
+	print("")
 	delay_print("Happy [error] birthday!")
 	time.sleep(1)
-	print ""
-	delay_print("Type 'poem' at any time if you would like to hear a poem.")
+	print("")
+	delay_print("Type 'poem' at any time if you would like to hear a poem that I actually wrote.")
+	delay_print("I also have some wise quotations from the wold of chess. Type 'chess' for one of those.")
 	time.sleep(1)
-	print ""
+	print("")
 	delay_print("Also you have some hidden presents. I can help you find them. To begin finding a present please type 'ready'")
 
 	while response != 'ready':
@@ -184,37 +190,37 @@ def main():
 		response = get_input()
 
 
-	print ""
-	delay_print("The wheels on the bus go...?")
-	response = raw_input("> ")
-	while response != 'round and round':
+	print("")
+	delay_print("What is the best face paint?")
+	response = input("> ")
+	while response != 'flying rainbow unicorn':
 		delay_print("Nope.")
 		response = get_input()
-	print ""
+	print("")
 	delay_print("Correct!")
-	delay_print("The first present is somewhere in the house. (What? I'm furloughed, you should be happy with this level of engagement)")
+	delay_print("The first present is somewhere in the house.")
 	ready()
 
-	print ""
-	delay_print("The people on the bus go...?")
-	response = raw_input("> ")
-	while response != "up and down":
+	print("")
+	delay_print("What is an appropriate greeting?")
+	response = input("> ")
+	while response != "show your tummy":
 		delay_print("Nope.")
 		response = get_input()
-	print ""
+	print("")
 	delay_print("Correct!")
 	delay_print("The second present is also somewhere in the house.")
 
 	ready()
 
 
-	print ""
-	delay_print("Does Asher need to use the potty?")
-	response = raw_input("> ")
-	while response != "no":
+	print("")
+	delay_print("What's that!?")
+	response = input("> ")
+	while response != "bird":
 		delay_print("Wrong.")
 		response = get_input()
-	print ""
+	print("")
 	delay_print("Correct!")
 	delay_print("The third present is somewhere in the house.")
 
@@ -222,10 +228,10 @@ def main():
 
 
 	delay_print("That's all the presents for this year! I hope [error] you had a nice time.")
-	print ""
+	print("")
 	time.sleep(1)
 	delay_print("Happy birthday!")
-	delay_print("BRAIDAN LOVES YOU")
+	delay_print("AIDAN LOVES YOU")
 	delay_print("ERROR.")
 	delay_print("ERROR.")
 	delay_print("SEG FAULT.")
